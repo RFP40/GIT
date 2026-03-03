@@ -9,3 +9,4 @@ cursor.execute("""CREATE TABLE IF NOT EXISTS pecas(
                 cpf TEXT NOT NULL UNIQUE,
                 local TEXT NOT NULL,
                 cep INT NOT NULL)""")
+conexao.commit()
