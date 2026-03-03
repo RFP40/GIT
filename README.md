@@ -7,6 +7,7 @@
 - HTML & CSS
 - JavaScript
 - Git & GitHub
+- NODE.js
 
 ## 😎 - How to run
 1. Clone the repository
