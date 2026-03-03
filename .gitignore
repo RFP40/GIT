@@ -1,1 +1,5 @@
-.db
+# Banco de dados
+*.db
+
+# Ignorar o próprio .gitignore
+.gitignore
