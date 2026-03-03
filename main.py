@@ -19,3 +19,4 @@ cursor.execute("""INSERT INTO teste
 print("Dados cadastrados com SUCESSO!")
 
 conexao.commit()
+conexao.close()
