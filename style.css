@@ -1,0 +1,85 @@
+body {
+    background-color: #8c8c8c;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h3 {
+    color: #4A4A4A;
+    font-size: 40px;
+    font-family: "JetBrains Mono", monospace;
+    margin-bottom: 2px;
+}
+
+p {
+    color: #4A4A4A;
+    font-family: "JetBrains Mono", monospace;
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+
+.root {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+input {
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 10px;
+    width: 190px;
+    height: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Inter, system-ui, sans-serif;
+    outline: 0;
+    padding: 0px 50px 0px 20px;
+}
+
+a {
+    color: #4A4A4A;
+    margin: 0 0 10px 0;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    background-color: #4A4A4A;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    font-family: Inter, system-ui, sans-serif;
+    font-weight: 500;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.senha {
+    position: relative;
+}
+
+.senha i {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    color: #4A4A4A;
+}
