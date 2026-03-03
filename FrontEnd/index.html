@@ -14,7 +14,7 @@
     <div class="root">
         <h3>Tela de LOGIN</h3>
         <p>BANCO DE DADOS | JS</p>
-        <input type="email" placeholder="EMAIL">
+        <input type="email" placeholder="EMAIL" id="email">
         <div class="senha">
             <input type="password" placeholder="PASSWORD" id="senha">
             <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
@@ -22,7 +22,7 @@
         <a href="/forgot-password" class="forgot-password">
          Forgot my PASSWORD
         </a>
-        <button type="button">LOG</button>
+        <button type="button" onclick="login()">LOG</button>
     </div>
 
     <script  src="script.js"></script>
