@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS login_site(
 # Inserir registro corretamente (valores em uma tupla)
 cursor.execute(
     "INSERT INTO login_site (nome, email, senha) VALUES (?, ?, ?)",
-    ("Rafa", "rafa@email.com", "1234")
+    ("Flávio", "flavio@gmail.com", "1234")
 )
-
+print("Usuário cadastrado!")
 conexao.commit()
 conexao.close()

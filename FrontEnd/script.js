@@ -23,9 +23,9 @@ function login() {
   .then(res => res.json())
   .then(data => {
     if (data.success) {
-      alert("Login bem-sucedido! 👌");
+      alert("Login bem-sucedido!");
     } else {
-      alert("Usuário ou senha incorretos ❌");
+      alert("Usuário ou senha incorretos...");
     }
   })
   .catch(err => console.error("Erro:", err));
